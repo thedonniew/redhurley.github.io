@@ -5,7 +5,10 @@ body {
 .header{
 	height: 50px;
 	background-color: black;
+/*	position: fixed;
+	z-index: 10;*/
 }
+
 .main-section {
 	background: url('../images/background.gif');
 	background-size:cover;
@@ -27,7 +30,7 @@ body {
 	text-align: center;
 	font-family: "HelveticaNeue-Light";
 	font-size: 15px;
-	padding-top: 100px;
+	padding-top: 50px;
 	padding-bottom: 50px;
 }
 
@@ -36,11 +39,11 @@ body {
 	font-family: "HelveticaNeue-Black";
 	font-size: 16px;
 	position: relative;
-	padding: 100px 50px 0 0;
+	padding: 50px 50px 0 0;
 }
 
 .social {
-	margin: 14px 0 0 0;
+	padding-top: 12px;
 	text-align: center;
 }
 
@@ -57,9 +60,25 @@ body {
 
 .work {
 	background-color: black;
-	height: 400px;
+	text-align: center;
+	color: white;
+	font-family: "HelveticaNeue-Black";
+	font-size: 16px;
+	position: relative;
+	padding: 50px 0 50px 0;
 }
 
 .profilepic {
 	position: relative;
+}
+
+.icons {
+	padding: 0 3px 0 3px;
+	display: inline;
+	background-color: black;
+}
+
+#twitter {
+	position: relative;
+	margin-top: 50px;
 }
