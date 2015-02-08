@@ -48,6 +48,14 @@ body {
 	padding: 180px 0 120px 0;
 }
 
+.name {
+	text-align: center;
+	display: inline;
+	font-family: "HelveticaNeue-Light";
+	font-size: 18px;
+	color: white;
+}
+
 .about {
 	text-align: center;
 	font-family: "HelveticaNeue-Black";
@@ -66,8 +74,12 @@ body {
 }
 
 .portfolio {
-	height: 500px;
 	background-color: black;
+	display: inline-block;
+}
+
+.projects {
+	width: 100%;
 }
 
 .image img {
