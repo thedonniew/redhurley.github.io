@@ -2,39 +2,60 @@
 
 <html>
 <head>
-<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/main.css">
 
-<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
 
-<!-- Optional theme -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
 
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
+	<!-- scrolling start -->
+
+	<script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+
+	<script src="js/vendor/bootstrap.min.js"></script>
+
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+         $('#top-nav').onePageNav({
+             currentClass: 'active',
+             changeHash: true,
+             scrollSpeed: 1200
+        });
+    </script>
 
 </head>
+
 <body>
 
 <!-- ROW 1 -->
-<div class="row header">
+<div id="header" class="row">
 	<div class="col-md-4 visible-lg-inline-block visible-md-inline-block">
 	</div>
 
 	<div class="col-md-1 navigation visible-lg-inline-block visible-md-inline-block" onmouseover="this.style.background='red';" onmouseout="this.style.background='black';">
-		<img src="images/icon_profile.png" height="28px"/>
+		<a href="#main-section"><img src="images/icon_profile.png" height="28px"/></a>
+		
 	</div>
 
 	<div class="col-md-1 navigation visible-lg-inline-block visible-md-inline-block" onmouseover="this.style.background='red';" onmouseout="this.style.background='black';">
-		<img src="images/icon_works.png" height="28px"/>
+		<a href="#projects"><img src="images/icon_works.png" height="28px"/></a>
 	</div>
 
 	<div class="col-md-1 navigation visible-lg-inline-block visible-md-inline-block" onmouseover="this.style.background='red';" onmouseout="this.style.background='black';">
-		<img src="images/icon_resume.png" height="28px"/>
+		<a href="#resume"><img src="images/icon_resume.png" height="28px"/></a>
 	</div>
 	
 	<div class="col-md-1 navigation visible-lg-inline-block visible-md-inline-block" onmouseover="this.style.background='red';" onmouseout="this.style.background='black';">
-		<img src="images/icon_contact.png" height="28px"/>
+		<a href="#contact"><img src="images/icon_contact.png" height="28px"/></a>
 	</div>
 	
 	<div class="col-md-4 header social">
@@ -76,15 +97,15 @@
 </div>
 
 <!-- ROW 2 -->
-<div class="row main-section">
+<div id="main-section" class="row">
 	<div class="col-md-4">
 	</div>
 	
-	<div class="col-md-4 logo">
+	<div id="logo" class="col-md-4">
 	 	<img src="images/logo2.png" width="300px" onmouseover="this.src='images/profile.jpg'" onmouseout="this.src='images/logo2.png'" />
- 		<div class="name">
+ 		<div id="name">
  			DONNIE WANG<br>
- 			<div class="title">
+ 			<div id="title">
  				ENGINEERING &nbsp;| &nbsp;TRADECRAFT
  			</div>
  		</div>
@@ -97,11 +118,11 @@
 	<div class="col-md-1">
 	</div>
   	
-  	<div class="col-md-2 about">
+  	<div id= "about" class="col-md-2">
   		ABOUT
   	</div>
   	
-  	<div class="col-md-6 intro">
+  	<div id="intro" class="col-md-6">
 
 		Now that we know who you are, I know who I am. I'm not a mistake! It all makes sense! In a comic, you know how you can tell who the arch-villain's going to be? He's the exact opposite of the hero. And most times they're friends, like you and me! I should've known way back when... You know why, David? Because of the kids. They called me Mr Glass.
 
@@ -110,6 +131,38 @@
 
 <!-- ROW 4 -->
 
+<div id="projects" class="row">
+	<div class="col-md-3">
+	</div>
+	<div class="col-md-3">
+	</div>
+	<div class="col-md-3">
+	</div>
+	<div class="col-md-3">
+	</div>
+</div>
+
+<div id="resume" class="row">
+	<div class="col-md-3">
+	</div>
+	<div class="col-md-3">
+	</div>
+	<div class="col-md-3">
+	</div>
+	<div class="col-md-3">
+	</div>
+</div>
+
+<div id="contact" class="row">
+	<div class="col-md-3">
+	</div>
+	<div class="col-md-3">
+	</div>
+	<div class="col-md-3">
+	</div>
+	<div class="col-md-3">
+	</div>
+</div>
 
 </body>
 </html>
