@@ -50,7 +50,7 @@ body {
 
 .name {
 	text-align: center;
-	display: inline;
+	display: inline-block;
 	font-family: "HelveticaNeue-Light";
 	font-size: 20px;
 	color: white;
