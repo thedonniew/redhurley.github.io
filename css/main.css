@@ -56,7 +56,7 @@ body {
 }
 
 .section-title {
-	text-align: right;
+	text-align: center;
 	font-family: "HelveticaNeue";
 	font-size: 15px;
 	position: relative;
@@ -67,17 +67,15 @@ body {
 	text-align: left;
 	font-family: "HelveticaNeue-Light";
 	font-size: 15px;
-	padding-top: 50px;
-	padding-bottom: 50px;
+	padding: 50px 20px 50px 20px;
 }
 
 #intro {
-	text-align: center;
+	text-align: justify;
 }
 
 #projects {
 	width: 100%;
-	background-color: black;
 	margin: 0;
 	padding: 0;
 }
@@ -93,41 +91,31 @@ body {
 	width: 25%;
 }
 
-#snapvite {
-	background: url('../images/snapvite.png');
-	background-size: cover;
-	background-repeat: no-repeat;
-}
-
-#zepp {
-	background: url('../images/zepp.jpg');
-	background-size: cover;
-	background-repeat: no-repeat;
-}
-
-#uxwork {
-	background: url('../images/snapvite.png');
-	background-size: cover;
-	background-repeat: no-repeat;
-}
-
-#product {
-	background: url('../images/zepp.jpg');
-	background-size: cover;
-	background-repeat: no-repeat;
-}
-
-#resume {
-	text-align: left;
+#experience {
+	text-align: justify;
 	font-family: "HelveticaNeue-Light";
 	font-size: 15px;
-	padding-top: 50px;
-	padding-bottom: 50px;
+	padding: 50px 20px 50px 20px;
+}
+
+.work {
+	font-family: "HelveticaNeue"
 }
 
 #contact {
-	height: 500px;
+	height: auto;
 	background-color: black;
+}
+
+#email {
+	text-align: center;
+	margin: 20px 0 20px 0;
+	font-family: "HelveticaNeue-Light";
+	font-size: 15px;
+}
+
+#email a {
+	color: white;
 }
 
 .image img {
