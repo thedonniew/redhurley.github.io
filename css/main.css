@@ -81,8 +81,8 @@ body {
 }
 
 .homepage-tile {
-	height: 225px;
-}
+/*	margin: 0;
+*/}
 
 #experience {
 	text-align: justify;
