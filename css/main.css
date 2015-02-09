@@ -6,7 +6,7 @@ body {
 	height: 50px;
 	background-color: black;
 	position: fixed;
-	width: 102%;
+	width: 100%;
 	z-index: 10;
 }
 
@@ -55,31 +55,74 @@ body {
 	font-size: 16px;
 }
 
-#about {
-	text-align: center;
-	font-family: "HelveticaNeue-Black";
-	font-size: 16px;
+.section-title {
+	text-align: right;
+	font-family: "HelveticaNeue";
+	font-size: 15px;
 	position: relative;
-	padding: 50px 50px 0 0;
+	padding: 0 50px 0 0;
 }
 
-#intro {
-	margin: 0px 20px 0px 20px;
-	text-align: center;
+#about {
+	text-align: left;
 	font-family: "HelveticaNeue-Light";
 	font-size: 15px;
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
 
+#intro {
+	text-align: center;
+}
+
 #projects {
-	height: 500px;
+	width: 100%;
 	background-color: black;
+	margin: 0;
+	padding: 0;
+}
+
+.homepage-tile {
+	height: 225px;
+}
+
+.tile-title {
+	color: white;
+	font-family: "HelveticaNeue-Light";
+	font-size: 20px;
+	width: 25%;
+}
+
+#snapvite {
+	background: url('../images/snapvite.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#zepp {
+	background: url('../images/zepp.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#uxwork {
+	background: url('../images/snapvite.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#product {
+	background: url('../images/zepp.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 #resume {
-	height: 500px;
-	background-color: white;
+	text-align: left;
+	font-family: "HelveticaNeue-Light";
+	font-size: 15px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
 #contact {
