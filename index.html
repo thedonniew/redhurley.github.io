@@ -2,8 +2,8 @@
 
 <html>
 <head>
-	<link rel="stylesheet" href="css/main.css">
-
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
 
@@ -15,29 +15,38 @@
 
 	<!-- smooth scrolling start -->
 	<script src="smooth-scroll-master/dist/js/smooth-scroll.js"></script>
+	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-	<!-- ROW 1 -->
+	<!-- TOP NAV -->
 	<div class="container-fluid">	
 		<div id="header" class="row">
 			<div class="col-md-4 visible-lg-inline-block visible-md-inline-block">
 			</div>
 
-			<a data-scroll href="#main-section"><div class="col-md-1 navigation visible-lg-inline-block visible-md-inline-block" onmouseover="this.style.background='red';" onmouseout="this.style.background='black';">
-				<img src="images/icon_profile.png" height="28px"/>
-			</div></a>
+			<a data-scroll href="#main-section">
+			    <div class="col-md-1 navigation visible-lg-inline-block visible-md-inline-block" onmouseover="this.style.background='red';" onmouseout="this.style.background='black';">
+			        <img src="images/icon_profile.png" height="28px"/>
+			    </div>
+			</a>
 
-			<a data-scroll href="#projects"><div class="col-md-1 navigation visible-lg-inline-block visible-md-inline-block" onmouseover="this.style.background='red';" onmouseout="this.style.background='black';">
-				<img src="images/icon_works.png" height="28px"/>
-			</div></a>
+			<a data-scroll href="#projects">
+				<div class="col-md-1 navigation visible-lg-inline-block visible-md-inline-block" onmouseover="this.style.background='red';" onmouseout="this.style.background='black';">
+					<img src="images/icon_works.png" height="28px"/>
+				</div>
+			</a>
 
-			<a data-scroll href="#experience"><div class="col-md-1 navigation visible-lg-inline-block visible-md-inline-block" onmouseover="this.style.background='red';" onmouseout="this.style.background='black';">
-				<img src="images/icon_resume.png" height="28px"/>
-			</div></a>
+			<a data-scroll href="#experience">
+				<div class="col-md-1 navigation visible-lg-inline-block visible-md-inline-block" onmouseover="this.style.background='red';" onmouseout="this.style.background='black';">
+					<img src="images/icon_resume.png" height="28px"/>
+				</div>
+			</a>
 			
-			<a data-scroll href="#contact"><div class="col-md-1 navigation visible-lg-inline-block visible-md-inline-block" onmouseover="this.style.background='red';" onmouseout="this.style.background='black';">
-				<img src="images/icon_contact.png" height="28px"/>
-			</div></a>
+			<a data-scroll href="#contact">
+				<div class="col-md-1 navigation visible-lg-inline-block visible-md-inline-block" onmouseover="this.style.background='red';" onmouseout="this.style.background='black';">
+					<img src="images/icon_contact.png" height="28px"/>
+				</div>
+			</a>
 			
 			<div class="col-md-4 header social">
 				<div class="icons image">
@@ -78,7 +87,7 @@
 		</div>
 	</div>
 
-	<!-- ROW 2 -->
+	<!-- HERO -->
 	<div class="container-fluid">	
 		<div id="main-section" class="row">
 			<div class="col-md-4">
@@ -95,15 +104,11 @@
 		</div>
 	</div>
 
-	<!-- ROW 3 -->
+	<!-- ABOUT -->
 	<div class="container-fluid">	
 		<div id="about" class="row">
 			<div class="col-md-1">
 			</div>
-		  	
-<!-- 		  	<div class="section-title col-md-2">
-		  	ABOUT
-		  	</div> -->
 		  	
 		  	<div id="intro" class="col-md-10">
 				I'm a product and marketing guy on a mission to take my technical skills to the next level. Over the past year I've built an iOS app, worked on various freelance projects, and am currently a full-time practitioner in Tradecraft's first engineering track. My ambition is to possess "full-stack" startup skills: engineering, product, UX, and growth. Oh, and I love playing tennis.
@@ -111,8 +116,7 @@
 		</div>
 	</div>
 
-	<!-- ROW 4 -->
-
+	<!-- PROJECTS -->
 	<div class="container-fluid">
 		<div id="projects" class="row">
 			<div class="col-xs-12 col-md-3 project view view-first">
@@ -150,6 +154,7 @@
 		</div>
 	</div>
 
+	<!-- EXPERIENCE -->
 	<div class="container-fluid">	
 		<div id="experience" class="row">
 			<div class="col-md-1">
@@ -158,8 +163,6 @@
 			EXPERIENCE
 			</div>
 			<div class="col-md-7">
-
-			<!-- start slipsum code -->
 
 			<div class="work">Engineering @ Tradecraft &nbsp;<div id="years">| &nbsp;2015 - Present</div></div>
 			Tradecraft is a full-time immersive program that trains people to succeed in traction roles at high growth startups.<br><br>
@@ -187,12 +190,11 @@
 
 			<div class="work">Marketing Coordinator @ Upper Deck &nbsp;<div id="years">| &nbsp;2004 - 2005</div></div>
 			Created, implemented and oversaw all marketing and advertising programs for licensed NBA products.
-
-			<!-- end slipsum code -->
 			</div>
 		</div>
 	</div>
 
+	<!-- CONTACT -->
 	<div class="container-fluid">
 		<div id="contact" class="row">
 			<div class="col-md-4">

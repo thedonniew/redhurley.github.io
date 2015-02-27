@@ -1,7 +1,7 @@
 body {     
 
 }
-
+/* Header */
 #header{
 	height: 50px;
 	background-color: black;
@@ -10,6 +10,7 @@ body {
 	z-index: 10;
 }
 
+/* Nav Bar */
 .navigation {
 	border-color: #1a1a1a;
 	border-style: solid;
@@ -32,6 +33,7 @@ body {
 	width: 100%;
 }
 
+/* Hero Section */
 #main-section {
 	background: url('../images/background.gif') center center fixed;
 	background-size: cover;
@@ -55,6 +57,7 @@ body {
 	font-size: 18px;
 }
 
+/* Sections */
 .section-title {
 	text-align: center;
 	font-family: "HelveticaNeue";
@@ -63,6 +66,7 @@ body {
 	padding: 0 50px 0 0;
 }
 
+/* About */
 #about {
 	text-align: left;
 	font-family: "HelveticaNeue-Light";
@@ -74,6 +78,7 @@ body {
 	text-align: center;
 }
 
+/* Projects */
 #projects {
 	width: 100%;
 	margin: 0;
@@ -87,6 +92,7 @@ body {
 	}
 }
 
+/* Experience */
 #experience {
 	text-align: justify;
 	font-family: "HelveticaNeue-Light";
@@ -103,6 +109,7 @@ body {
 	font-family: "HelveticaNeue"
 }
 
+/* Contact */
 #contact {
 	height: auto;
 	background-color: black;
@@ -119,6 +126,8 @@ body {
 	color: white;
 }
 
+/* Header Animations */
+/* Zooms in on social icons as you hover */
 .image img {
     -webkit-transition: all 0.3s ease; /* Safari and Chrome */
     -moz-transition: all 0.3s ease; /* Firefox */
@@ -135,6 +144,7 @@ body {
      transform:scale(1.4);
 }
 
+/* Background Image */
 .view {
     width: 100%;
     height: 100%;
@@ -145,6 +155,7 @@ body {
     cursor: default;
     background: #fff url(../images/bgimg.jpg) no-repeat center center
 }
+
 .view .mask, .view .content {
     width: 100%;
     height: 100%;
@@ -153,10 +164,14 @@ body {
     top: 0;
     left: 0
 }
+
+/* Projects Animation */
+/* Zooms image and shows text layer */
 .view img {
     display: block;
     position: relative;
 }
+
 .view h2 {
     text-transform: uppercase;
     color: #fff;
@@ -167,6 +182,7 @@ body {
     background: rgba(0, 0, 0, 0.8);
     margin: 20px 0 0 0
 }
+
 .view p {
     font-family: "HelveticaNeue";
     font-size: 13px;
@@ -175,6 +191,7 @@ body {
     padding: 10px 20px 20px;
     text-align: center
 }
+
 .view a.info {
     display: inline-block;
     text-decoration: none;
